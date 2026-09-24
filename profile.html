@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile — Lei</title>
+  <meta name="description" content="About Lei: background, experience and skills.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%23111FA2'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='40' fill='%23FCF1D0'>L</text></svg>">
+  <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-nav">
+    <nav class="container site-nav__inner" aria-label="Main">
+      <a href="index.html" class="site-nav__logo">Lei</a>
+      <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="site-nav__links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="profile.html" aria-current="page">Profile</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="#connect" class="btn btn--nav">Let's connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container page-header">
+      <div class="eyebrow">Profile</div>
+      <h1>About me</h1>
+    </section>
+
+    <section class="container about" aria-label="About">
+      <!-- Replace with: <div class="photo about__photo photo--sand"><img src="images/me.jpg" alt="Portrait of Lei"></div> -->
+      <div class="photo about__photo photo--sand">[YOUR PHOTO]</div>
+      <div class="about__text">
+        <p class="about__intro">[ONE-LINE INTRO — who you are and what you care about.]</p>
+        <p>[A short paragraph about your background: where you studied or grew up, how you got into what you do, and what you're focused on right now.]</p>
+        <p>[A second paragraph with something more personal — what motivates you, how you like to work, or what you're learning next.]</p>
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>[YOUR CITY]</dd></div>
+          <div><dt>Currently</dt><dd>[ROLE @ COMPANY]</dd></div>
+          <div><dt>Languages</dt><dd>[LANGUAGES]</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="container experience" aria-labelledby="experience-title">
+      <h2 class="section-title" id="experience-title">Experience</h2>
+      <div class="experience__list">
+        <article class="role">
+          <!-- Replace with: <div class="photo role__photo photo--sand"><img src="images/..." alt="..."></div> -->
+          <div class="photo role__photo photo--sand">[PHOTO FROM THIS ROLE]</div>
+          <div class="role__text">
+            <div class="role__head">
+              <span class="role__dates">[20XX] - Present</span>
+              <h3>[Company]</h3>
+              <span class="role__title">[Job title]</span>
+            </div>
+            <div class="role__desc">
+              <p>[What you do there — the problem you help solve, in two or three short lines.]</p>
+              <p>[What you work on: your products or focus area.]</p>
+            </div>
+          </div>
+        </article>
+        <article class="role role--reverse">
+          <!-- Replace with: <div class="photo role__photo photo--lavender"><img src="images/..." alt="..."></div> -->
+          <div class="photo role__photo photo--lavender">[PHOTO FROM THIS ROLE]</div>
+          <div class="role__text">
+            <div class="role__head">
+              <span class="role__dates">[20XX] - [20XX]</span>
+              <h3>[Company]</h3>
+              <span class="role__title">[Job title]</span>
+            </div>
+            <div class="role__desc">
+              <p>[What you did there and what you're most proud of.]</p>
+              <p>[Key projects or products.]</p>
+            </div>
+          </div>
+        </article>
+        <article class="role">
+          <!-- Replace with: <div class="photo role__photo photo--peach"><img src="images/..." alt="..."></div> -->
+          <div class="photo role__photo photo--peach">[PHOTO FROM THIS ROLE]</div>
+          <div class="role__text">
+            <div class="role__head">
+              <span class="role__dates">[20XX] - [20XX]</span>
+              <h3>[School]</h3>
+              <span class="role__title">[Degree or course]</span>
+            </div>
+            <div class="role__desc">
+              <p>[What you studied and a highlight from that time.]</p>
+              <p>[Clubs, projects or awards.]</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container skills" aria-labelledby="skills-title">
+      <h2 class="section-title" id="skills-title">Skills</h2>
+      <ul class="skills__list">
+        <li>[Skill one]</li>
+        <li>[Skill two]</li>
+        <li>[Skill three]</li>
+        <li>[Skill four]</li>
+        <li>[Skill five]</li>
+        <li>[Skill six]</li>
+      </ul>
+    </section>
+  </main>
+
+  <section class="connect" id="connect" aria-labelledby="connect-title">
+    <div class="container connect__inner">
+      <div class="connect__grid">
+        <div class="connect__intro">
+          <div class="eyebrow">Get in touch</div>
+          <h2 id="connect-title">Let's connect.</h2>
+          <p>Have a question, an idea, or just want to say hi? Send me a note and I'll get back to you.</p>
+          <p class="connect__direct">Or write directly to <a href="mailto:you@example.com" data-email>you@example.com</a></p>
+        </div>
+        <form class="connect-form">
+          <div class="connect-form__row">
+            <div class="field">
+              <label for="c-name">Your name</label>
+              <input id="c-name" name="name" type="text" placeholder="Jane Doe" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="c-email">Your email</label>
+              <input id="c-email" name="email" type="email" placeholder="jane@example.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="field">
+            <label for="c-msg">Message</label>
+            <textarea id="c-msg" name="message" placeholder="Hi Lei, …"></textarea>
+          </div>
+          <div class="connect-form__actions">
+            <button type="submit" class="btn btn--send">Send message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+            </button>
+            <span class="connect-form__hint">Opens your email app with the message filled in.</span>
+          </div>
+        </form>
+      </div>
+      <footer class="site-footer">
+        <span>© <span data-year>2026</span> Lei</span>
+        <span>Made with care</span>
+      </footer>
+    </div>
+  </section>
+</body>
+</html>
