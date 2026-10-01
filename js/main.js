@@ -1,5 +1,5 @@
 // Your contact email — used by the "Let's connect" section on every page.
-const CONTACT_EMAIL = 'you@example.com';
+const CONTACT_EMAIL = 'nguyen.ly.nntl@gmail.com';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Footer year
