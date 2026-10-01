@@ -1,6 +1,6 @@
 # personal_page
 
-Lei's personal website: a static site (plain HTML, CSS and JS) built from the design in
+Ly's personal website: a static site (plain HTML, CSS and JS) built from the design in
 [`design/Lei — Personal Website.html`](design/).
 
 ## Pages
@@ -19,7 +19,7 @@ Every page ends with the shared **Let's connect** section and footer.
 - **Email**: set `CONTACT_EMAIL` at the top of `js/main.js`. The contact form opens the visitor's email app with their message filled in.
 - **Photos**: put images in `images/`, then add an `<img>` inside a placeholder box, for example:
   ```html
-  <div class="photo about__photo photo--sand"><img src="images/me.jpg" alt="Portrait of Lei"></div>
+  <div class="photo about__photo photo--sand"><img src="images/me.jpg" alt="Portrait of Ly"></div>
   ```
   Once a box contains an image, its dashed border goes away.
 - **Experience layout**: to put a row's photo on the right, add `role--reverse` to that `<article class="role">`.
